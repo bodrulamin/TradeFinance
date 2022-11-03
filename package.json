@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 3333",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -20,7 +20,14 @@
     "@angular/router": "^14.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "primeicons": "6.0.1",
+    "primeng": "14.1.2",
+    "@angular/cdk": "~14.0.0",
+    "chart.js": "^3.3.2",
+    "primeflex": "^3.2.0",
+    "prismjs": "1.9.0",
+    "web-animations-js": "^2.3.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.0.6",
@@ -33,6 +40,14 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "@types/jasminewd2": "~2.0.8",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0"
   }
 }
